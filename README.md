@@ -1,7 +1,7 @@
 📁 **Dotfiles for Hyprland**
 
-![Preview 1](preview/preview-1.jpg)
-![Preview 2](preview/preview-2.jpg)
+![Preview 1](preview/preview-1.png)
+![Preview 2](preview/preview-2.png)
 
 This repository contains my personal dotfiles for Hyprland Compositor, which are modified versions based on the fantastic work of [pineedaa](https://github.com/pineedaa/dotfiles/tree/master). Huge thanks to pineedaa for providing the foundation for these configurations.
 
