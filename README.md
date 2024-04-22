@@ -21,6 +21,7 @@ Make sure you have the following dependencies installed:
 - [Hyprlock](https://github.com/pineedaa/hyprlock)
 - [Wofi](https://hg.sr.ht/~scoopta/wofi)
 - [Slurp](https://github.com/emersion/slurp)
+- [network-manager-applet](https://archlinux.org/packages/extra/x86_64/network-manager-applet/)
 
 ## Fonts
 
