@@ -17,8 +17,10 @@ Make sure you have the following dependencies installed:
 - [Cliphist](https://github.com/cdown/cliphist)
 - [Hyperidle](https://github.com/pineedaa/hyperidle)
 - [Polkit](https://www.freedesktop.org/wiki/Software/polkit/)
+- [polkit-kde-agent](https://archlinux.org/packages/extra/x86_64/polkit-kde-agent/)
 - [Hyprlock](https://github.com/pineedaa/hyprlock)
 - [Wofi](https://hg.sr.ht/~scoopta/wofi)
+- [Slurp](https://github.com/emersion/slurp)
 
 ## Fonts
 
