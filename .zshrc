@@ -70,7 +70,14 @@ ZSH_THEME="refined"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux python vscode zsh-autosuggestions)
+plugins=(
+    git 
+    archlinux 
+    python 
+    vscode 
+    zsh-autosuggestions 
+    web-search
+    )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,6 +95,8 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -104,4 +113,6 @@ source $ZSH/oh-my-zsh.sh
 #eval "$(fzf --zsh)"
 
 eval "$(zoxide init zsh)"
-neofetch
+neofetch --ascii ~/.config/neofetch/art/cat.txt --colors 4 7 4 4 7 7
+
+# neofetch --ascii ~/.config/neofetch/art/space.png --colors 4 7 4 4 7 7
