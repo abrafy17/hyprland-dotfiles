@@ -1,4 +1,4 @@
-@define-color base            #161320; /* 1a1a1a */
+@define-color base            #161320;
 @define-color text            #eeeeee;
 @define-color green           #78A083;
 @define-color blue            #76ABAE;
@@ -21,6 +21,22 @@
 
 .modules-left {
   padding-left: 10px;
+}
+
+#power {
+  border-radius: 0;
+}
+
+#power button {
+  box-shadow: none;
+	text-shadow: none;
+  border-radius: 0;
+  border: none;
+  padding: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-bottom: 2px solid @blue;
+  color: @red;
 }
 
 #window {
