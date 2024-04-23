@@ -1,19 +1,27 @@
 {
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/power", "custom/separator", "hyprland/workspaces"],
 
   "modules-center": ["hyprland/window"],
 
   "modules-right": ["network", "custom/separator", "pulseaudio", "custom/separator", "clock", "custom/separator", "tray"],
   
+  "custom/power": {
+    "format": " ⏻ ",
+    "tooltip": false,
+    "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+  },
+
   "hyprland/window": {
     "format": "{initialTitle}",
     "interval": 1
   },
+
   "hyprland/workspaces": {
       "persistent-workspaces": {
            "*": 5
      }
   },
+
   "network": {
     "format-wifi": "󰤯   {essid}",
     "format-ethernet": "󰈀  {ifname}     ☢      {bandwidthDownBytes}     {bandwidthUpBytes}",
@@ -22,6 +30,7 @@
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
 
   },
+
   "clock": {
     "format": "{:%I:%M %p}",
     "interval": 50,
@@ -48,6 +57,7 @@
                     "on-scroll-down": "shift_down"
                   }
   },
+
   "battery": {
     "format":"{icon}   {capacity}",
     "states": {
@@ -66,6 +76,7 @@
     },
     "interval": 15
   },
+
   "pulseaudio": {
     "format": "{icon}  {volume}",
     "format-muted": " muted",
@@ -81,6 +92,7 @@
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "interval": 1
   },
+
   "custom/separator": {
     "format": "    ",
     "interval": "once",
