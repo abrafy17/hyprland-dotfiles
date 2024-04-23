@@ -9,19 +9,22 @@ This repository contains my personal dotfiles for Hyprland Compositor, which are
 
 Make sure you have the following dependencies installed:
 
-- [Waybar](https://github.com/Alexays/Waybar)
-- [Kitty](https://sw.kovidgoyal.net/kitty/)
+- Bar: [waybar](https://github.com/Alexays/Waybar)
+- Terminal: [kitty](https://sw.kovidgoyal.net/kitty/)
+- Wallpaper: [hyprpaper](https://github.com/prateekmedia/hyprpaper)
+- Clipboard: [cliphist](https://github.com/cdown/cliphist)
+- Idle: [hyperidle](https://github.com/pineedaa/hyperidle)
+- Lockscreen: [hyprlock](https://github.com/pineedaa/hyprlock)
+- Menu: [rofi](https://github.com/davatorium/rofi)
+- Notifications: [dunst](https://github.com/dunst-project/dunst)
+
+- [fcitx5](https://github.com/fcitx/fcitx5)
+- [slurp](https://github.com/emersion/slurp)
+- [network-manager-applet](https://archlinux.org/packages/extra/x86_64/network-manager-applet/)
 - [systemctl](https://www.freedesktop.org/software/systemd/man/systemctl.html)
 - [playerctl](https://github.com/altdesktop/playerctl)
-- [Hyprpaper](https://github.com/prateekmedia/hyprpaper)
-- [Cliphist](https://github.com/cdown/cliphist)
-- [Hyperidle](https://github.com/pineedaa/hyperidle)
 - [Polkit](https://www.freedesktop.org/wiki/Software/polkit/)
 - [polkit-gnome-agent](https://archlinux.org/packages/extra/x86_64/polkit-gnome/)
-- [Hyprlock](https://github.com/pineedaa/hyprlock)
-- [Wofi](https://hg.sr.ht/~scoopta/wofi)
-- [Slurp](https://github.com/emersion/slurp)
-- [network-manager-applet](https://archlinux.org/packages/extra/x86_64/network-manager-applet/)
 
 ## Fonts
 
