@@ -37,31 +37,37 @@ countdown () {
 	done
 }
 
+# sound
+sound (){
+	cvlc $HOME/.config/rofi/assets/sounds/camera-shutter.ogg
+}
+
 # take shots
 shotnow () {
-	sleep 0.5 && grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png')
+	sleep 0.5 && grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && sound
 	notify_view
 }
 
 shot5 () {
 	countdown '3'
-	sleep 1 && grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png')
+	sleep 1 && grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && sound
 	notify_view
 }
 
 shot10 () {
 	countdown '10'
-	sleep 1 && grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png')
+	sleep 1 && grim $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && sound
 	notify_view
 }
 
 shotwin () {
-	grim -g "$(slurp -o)" $HOME/Pictures/Screenshots/$(date +'%s_grim.png')
+	grim -g "$(slurp -o)" $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && sound
 	notify_view
 }
 
 shotarea () {
-	grim -g "$(slurp)" $HOME/Pictures/Screenshots/$(date +'%s_grim.png')
+	grim -g "$(slurp)" $HOME/Pictures/Screenshots/$(date +'%s_grim.png') && sound
+	notify_view
 }
 
 if [[ ! -d "$dir" ]]; then
