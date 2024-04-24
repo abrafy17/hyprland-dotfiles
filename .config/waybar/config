@@ -23,8 +23,8 @@
   },
 
   "network": {
-    "format-wifi": "󰤯   {essid}",
-    "format-ethernet": "󰈀  {ifname}     ☢      {bandwidthDownBytes}     {bandwidthUpBytes}",
+    "format-wifi": "󰤯   {essid}     {bandwidthDownBytes}     {bandwidthUpBytes}",
+    "format-ethernet": "󰈀  {ifname}     {bandwidthDownBytes}     {bandwidthUpBytes}",
     "format-disconnected": "󰤮   Disconnected",
     "interval": 2,
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
