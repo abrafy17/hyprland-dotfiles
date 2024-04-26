@@ -17,13 +17,10 @@ Make sure you have the following dependencies installed:
 - Lockscreen: [hyprlock](https://github.com/pineedaa/hyprlock)
 - Menu: [rofi](https://github.com/davatorium/rofi)
 - Notifications: [dunst](https://github.com/dunst-project/dunst)
+- Screenshot [grim](https://github.com/emersion/grim)
 
-- [fcitx5](https://github.com/fcitx/fcitx5)
 - [slurp](https://github.com/emersion/slurp)
 - [network-manager-applet](https://archlinux.org/packages/extra/x86_64/network-manager-applet/)
-- [systemctl](https://www.freedesktop.org/software/systemd/man/systemctl.html)
-- [playerctl](https://github.com/altdesktop/playerctl)
-- [Polkit](https://www.freedesktop.org/wiki/Software/polkit/)
 - [polkit-gnome-agent](https://archlinux.org/packages/extra/x86_64/polkit-gnome/)
 
 ## Fonts
